@@ -2,7 +2,4 @@
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-var charts_1 = require('./components/charts/charts');
 __export(require('./components/charts/charts'));
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = charts_1.ChartsModule;
