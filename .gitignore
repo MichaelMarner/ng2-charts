@@ -25,6 +25,6 @@ ng2-charts.js.map
 /demo/**/*.d.ts
 /components/**/*.js
 /components/**/*.js.map
-/components/**/*.d.ts
+!/components/**/*.d.ts
 
 /logs
