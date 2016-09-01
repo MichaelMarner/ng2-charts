@@ -234,6 +234,16 @@ System.registerDynamic("ng2-charts/components/charts/charts", ["@angular/core"],
     }
     return generateColor(index);
   }
+  var ChartsModule = (function() {
+    function ChartsModule() {}
+    ChartsModule = __decorate([core_1.NgModule({
+      declarations: [BaseChartComponent],
+      exports: [BaseChartComponent],
+      imports: []
+    }), __metadata('design:paramtypes', [])], ChartsModule);
+    return ChartsModule;
+  }());
+  exports.ChartsModule = ChartsModule;
   return module.exports;
 });
 
