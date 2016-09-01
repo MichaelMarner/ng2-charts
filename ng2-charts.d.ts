@@ -1,3 +1,3 @@
+import { ChartsModule } from './components/charts/charts';
 export * from './components/charts/charts';
-declare var _default: {};
-export default _default;
+export default ChartsModule;

@@ -258,9 +258,10 @@ System.registerDynamic("ng2-charts/ng2-charts", ["./components/charts/charts"], 
       if (!exports.hasOwnProperty(p))
         exports[p] = m[p];
   }
+  var charts_1 = $__require('./components/charts/charts');
   __export($__require('./components/charts/charts'));
   Object.defineProperty(exports, "__esModule", {value: true});
-  exports.default = {};
+  exports.default = charts_1.ChartsModule;
   return module.exports;
 });
 
